@@ -1,0 +1,320 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 88,
+  "links": [
+    {
+      "icon": "external link",
+      "includeVars": true,
+      "keepTime": true,
+      "tags": [
+        "hd"
+      ],
+      "targetBlank": true,
+      "type": "dashboards"
+    }
+  ],
+  "panels": [
+    {
+      "cacheTimeout": null,
+      "datasource": "InfluxDB",
+      "flowchartsData": {
+        "flowcharts": [
+          {
+            "allowDrawio": false,
+            "bgColor": null,
+            "center": true,
+            "csv": "",
+            "download": false,
+            "editorTheme": "dark",
+            "editorUrl": "https://www.draw.io",
+            "grid": false,
+            "lock": true,
+            "name": "Main",
+            "scale": true,
+            "tooltip": true,
+            "type": "xml",
+            "url": "http://<YourUrl>/<Your XML/drawio file/api>",
+            "xml": "<mxfile host=\"www.draw.io\" modified=\"2020-01-22T06:35:34.869Z\" agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36\" etag=\"_nwl-BEYxUd895DevNt6\" version=\"12.5.5\"><diagram id=\"z6E96xfaRhSLpW_DZX0y\" name=\"Page-1\">7VZLj5swEP41XCMeC6THTTa7PbRSpRx6XDlgwKphqG3y6K/vGJtHINnNIX0c1pEi+/OMPTPf5xFOsC6PL4LUxVdIKXd8Nz06wZPj+3Hs4b8GTgYIvcgAuWCpgbwB2LJf1IKuRRuWUnlmqAC4YvU5mEBV0USdYUQIOJybZcDPb61JTmfANiF8jn5nqSoMuvTjAf9MWV50N3vRJ7NTks7YZiILksJhBAUbJ1gLAGVm5XFNua5dVxfj93xltw9M0Erd4hAsjcee8MYmZwNTpy5bAU2VUu3gOsHqUDBFtzVJ9O4B6UWsUCXHlYfTjHG+Bg4C1xVUaLSSSsAPOgHngdrY91QoehxBNvAXCiVV4oQmdjeyNbQi8kK7PgyU9DbFmA7XgsTKIO+PHiqFE1usK4XzLxQu4njFaidwlqs2yduRDLAQWrKmTAj/bMAYBFk7xpDxfaxrzhKiGFTouqUCi9edhwmYI7trJqyOOOtFqPlNiSx6snGn1vblMdcPebFDYSKdpF4I0T6slbCvM5wRjXE/twN3CGd5hViCbGOIJlvr6V1T1VhKeJjbjvtIp5dAp51orp3lBenE91DOw/tPrgamC7XZY4ryXZbGVF56a5NChq7+Ic7JjvJvIFkroBE7upCoK/5lYrADpaAcGTxaXhVowqBRnFV4e9d13UvUTzUFWcYSupCteuWCDJp+NdhrXoBUOtv7UB9OqI9m1HvhnHr/HtSH/0HTeCKK7Iik81M/GsjNKurl8C8aSPzRQN5oIKnV9x/pHr7/8Le6By6H78B2b/QxHWx+Aw==</diagram></mxfile>",
+            "zoom": "100%"
+          }
+        ]
+      },
+      "format": "short",
+      "graphId": "flowchart_4",
+      "gridPos": {
+        "h": 5,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 4,
+      "links": [],
+      "newFlag": false,
+      "options": {},
+      "rulesData": {
+        "rulesData": [
+          {
+            "aggregation": "avg",
+            "alias": "PSPC_APPSERVER",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [
+              {
+                "hidden": false,
+                "linkParams": false,
+                "linkUrl": "http://localhost:3000/d/ZG7E3uEZz/co_pspc_application-server?orgId=1&refresh=5m&from=now-5m&to=now",
+                "pattern": "32"
+              }
+            ],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 1,
+            "overlayIcon": true,
+            "pattern": "pspc_appserver",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "32",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "PSPC Application Server",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "PSPC_DBSERVER",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [
+              {
+                "hidden": false,
+                "linkParams": false,
+                "linkUrl": "http://localhost:3000/d/AWJU3uPWz/co_pspc_database-server?orgId=1&refresh=5m&from=now-5m&to=now",
+                "pattern": "35"
+              }
+            ],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 2,
+            "overlayIcon": true,
+            "pattern": "pspc_dbserver",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "35",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "PSPC Database Server",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          }
+        ]
+      },
+      "targets": [
+        {
+          "alias": "pspc_appserver",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.239.111/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "pspc_dbserver",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.239.21/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "",
+      "type": "agenty-flowcharting-panel",
+      "valueName": "current",
+      "version": "0.7.0"
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 19,
+  "style": "dark",
+  "tags": [
+    "pspc"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-5m",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ]
+  },
+  "timezone": "",
+  "title": "PSPC",
+  "uid": "qZvn5VsZz",
+  "version": 23
+}

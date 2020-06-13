@@ -1,0 +1,2058 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 106,
+  "links": [
+    {
+      "icon": "external link",
+      "includeVars": true,
+      "keepTime": true,
+      "tags": [
+        "hd"
+      ],
+      "targetBlank": true,
+      "type": "dashboards"
+    }
+  ],
+  "panels": [
+    {
+      "cacheTimeout": null,
+      "datasource": "InfluxDB",
+      "flowchartsData": {
+        "flowcharts": [
+          {
+            "allowDrawio": false,
+            "bgColor": null,
+            "center": true,
+            "csv": "",
+            "download": false,
+            "editorTheme": "dark",
+            "editorUrl": "https://www.draw.io",
+            "grid": false,
+            "lock": true,
+            "name": "Main",
+            "scale": true,
+            "tooltip": true,
+            "type": "xml",
+            "url": "http://<YourUrl>/<Your XML/drawio file/api>",
+            "xml": "<mxfile host=\"www.draw.io\" modified=\"2020-02-04T09:16:50.042Z\" agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\" etag=\"0up5kIOah0PeAE3RmLiI\" version=\"12.6.4\"><diagram id=\"_FDHCYmLEpLPrdRmRMPR\" name=\"Page-1\">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</diagram></mxfile>",
+            "zoom": "100%"
+          }
+        ]
+      },
+      "format": "short",
+      "graphId": "flowchart_2",
+      "gridPos": {
+        "h": 21,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "links": [],
+      "newFlag": false,
+      "options": {},
+      "rulesData": {
+        "rulesData": [
+          {
+            "aggregation": "avg",
+            "alias": "Super_Core_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 1,
+            "overlayIcon": true,
+            "pattern": "SC1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "347",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.39.255.252",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Super_Core_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 2,
+            "overlayIcon": true,
+            "pattern": "SC2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "348",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.39.255.251",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Edge_Distributor_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 3,
+            "overlayIcon": true,
+            "pattern": "ED1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "264",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.39.255.250",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Edge_Distributor_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 4,
+            "overlayIcon": true,
+            "pattern": "ED2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "267",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.39.255.249",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Virtual_Routing_Forwarding_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 5,
+            "overlayIcon": true,
+            "pattern": "VRF1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "119",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.107",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Virtual_Routing_Forwarding_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 6,
+            "overlayIcon": true,
+            "pattern": "VRF2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "150",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.108",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Border_Leaf_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 7,
+            "overlayIcon": true,
+            "pattern": "BL1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "167",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.6",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Border_Leaf_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 8,
+            "overlayIcon": true,
+            "pattern": "BL2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "174",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.7",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Server_Leaf_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 9,
+            "overlayIcon": true,
+            "pattern": "SL1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "191",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.8",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Server_Leaf_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 10,
+            "overlayIcon": true,
+            "pattern": "SL2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "194",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.9",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Load_Balancer_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 11,
+            "overlayIcon": true,
+            "pattern": "FS1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "108",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.113",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Load_Balancer_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 12,
+            "overlayIcon": true,
+            "pattern": "FS2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "109",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.114",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "IPS_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 13,
+            "overlayIcon": true,
+            "pattern": "IPS1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "112",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.115",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "IPS_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 14,
+            "overlayIcon": true,
+            "pattern": "IPS2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "114",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.116",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Spine_1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 15,
+            "overlayIcon": true,
+            "pattern": "Spine1",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "179",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.4",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Spine_2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 16,
+            "overlayIcon": true,
+            "pattern": "Spine2",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "182",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.5",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Internal Firewall",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 17,
+            "overlayIcon": true,
+            "pattern": "FP_ASA(CSM)",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "87",
+                "style": "fillColor"
+              },
+              {
+                "hidden": false,
+                "pattern": "88",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.35",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Internet Firewall 1",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 18,
+            "overlayIcon": true,
+            "pattern": "PA_Internet_Parameter_Firewall",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "156",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.109",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          },
+          {
+            "aggregation": "avg",
+            "alias": "Internet Firewall 2",
+            "colorOn": "a",
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "column": "Time",
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "decimals": 2,
+            "hidden": false,
+            "invert": false,
+            "linkData": [],
+            "linkOn": "a",
+            "linkProp": "id",
+            "mappingType": 1,
+            "metricType": "serie",
+            "order": 19,
+            "overlayIcon": true,
+            "pattern": "Sec_PA_Internet_Parameter_Firewall",
+            "rangeData": [],
+            "reduce": true,
+            "refId": "A",
+            "sanitize": false,
+            "shapeData": [
+              {
+                "hidden": false,
+                "pattern": "46",
+                "style": "fillColor"
+              }
+            ],
+            "shapeProp": "id",
+            "stringCritical": "",
+            "stringWarning": "",
+            "textData": [],
+            "textOn": "wmd",
+            "textProp": "id",
+            "thresholds": [
+              "95",
+              "99.9"
+            ],
+            "tooltip": true,
+            "tooltipColors": false,
+            "tooltipLabel": "10.54.213.110",
+            "tooltipOn": "a",
+            "tpDirection": "v",
+            "tpGraph": true,
+            "tpGraphHigh": null,
+            "tpGraphLow": null,
+            "tpGraphScale": "linear",
+            "tpGraphSize": "100px",
+            "tpGraphType": "line",
+            "type": "number",
+            "unit": "percent",
+            "valueData": []
+          }
+        ]
+      },
+      "targets": [
+        {
+          "alias": "FP_ASA(CSM)",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.35/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "FP_ASA(Console)",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.31/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "Palo_Alto_Panoramana",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.11/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "PA_Internet_Parameter_Firewall",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.109/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "D",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "Parameter_Firewall",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.39.241.201/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "E",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "SC1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.39.255.252/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "F",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "SC2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.39.255.251/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "G",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "ED1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.39.255.250/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "H",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "ED2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.39.255.249/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "I",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "VRF1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.107/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "J",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "VRF2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.108/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "K",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "BL1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.6/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "L",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "BL2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.7/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "M",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "SL1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.8/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "N",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "SL2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.9/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "O",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "Spine1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.4/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "P",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "Spine2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.5/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "Q",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "FS1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.113/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "R",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "FS2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.114/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "S",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "IPS1",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.115/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "T",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "IPS2",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.116/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "U",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "alias": "Sec_PA_Internet_Parameter_Firewall",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT 100 - mean(\"percent_packet_loss\") FROM \"ping\" WHERE \"url\" =~ /10.54.213.110/ AND $timeFilter GROUP BY time(1m) fill(null)",
+          "rawQuery": true,
+          "refId": "V",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Software-Defined Data Center",
+      "type": "agenty-flowcharting-panel",
+      "valueName": "current",
+      "version": "0.7.0"
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 19,
+  "style": "dark",
+  "tags": [
+    "sddc"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-5m",
+    "to": "now"
+  },
+  "timepicker": {
+    "hidden": false,
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ]
+  },
+  "timezone": "",
+  "title": "SDDC Diagram",
+  "uid": "iOIKBjsZz",
+  "version": 17
+}
