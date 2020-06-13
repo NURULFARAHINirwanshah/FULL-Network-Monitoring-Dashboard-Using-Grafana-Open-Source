@@ -1,3 +1,5 @@
+<img src="https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/logo.png" align="left" width="80px">
+
 # Network Monitoring Dashboard Using Grafana Open Source
 Network Monitoring Dashboard using Grafana Open Source is developed to monitor the network availability and server utilization as to track the RTO to fulfill the SLA to the business. The data is collected by Telegraf agent that has been  installed on the server. It works by scraping the metrics and the result will be sent to InfluxDB datasource. Next, all the data will be visualized in Grafana.
 
