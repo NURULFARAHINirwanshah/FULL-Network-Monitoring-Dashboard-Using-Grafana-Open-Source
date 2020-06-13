@@ -11,6 +11,12 @@ User OS             : Windows 10
 Browser             : Chrome 79  
 Grafana plugins     : Alert List, Boom Table, Dashboard List, Flowcharting, Gauge, Graph, InfluxDB, MySQL, Prometheus, SimpleJSON, Singlestat, Table, TestData DB, Text, Datasource, PDF Report
 
+## System Module
+* Manage server information and status by configuring query and rules
+* Monitor server availability
+* Trigger alert and send notification to Slack
+* Generate server availability report
+
 ## System Architecture
 <img src="https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/architecture.png" width="70%">
 
