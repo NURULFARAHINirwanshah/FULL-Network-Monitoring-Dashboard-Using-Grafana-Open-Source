@@ -20,7 +20,7 @@ Grafana plugins     : Alert List, Boom Table, Dashboard List, Flowcharting, Gaug
 ### Status
 * Green indicates OK
 * Orange indicates WARN
-* Red indicates Breached
+* Red indicates BREACHED
 
 ### Homepage (servers)
 ![s1](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20panel.png)
