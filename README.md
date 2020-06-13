@@ -10,15 +10,27 @@ Browser             : Chrome 79
 Grafana plugins     : Alert List, Boom Table, Dashboard List, Flowcharting, Gauge, Graph, InfluxDB, MySQL, Prometheus, SimpleJSON, Singlestat, Table, TestData DB, Text, Datasource, PDF Report
 
 ## System Architecture
-![ss1](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/architecture.png)
+<img src="https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/architecture.png" width="70%">
+
 
 ## Screenshots
+
+### Status
+* Green indicates OK
+* Orange indicates WARN
+* Red indicates Breached
+
+### Homepage (servers)
 ![s1](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20panel.png)
 
+### Server availability (pinging)
 ![s5](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/servers%20performance.png)
 
+### SDDC diagram
 ![s2](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/sddc%20panel.png)
 
+### Server availability (pinging)
 ![s3](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20performance.png)
 
+### Report
 ![s4](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/pdf%20report.png)
