@@ -23,13 +23,13 @@ Grafana plugins     : Alert List, Boom Table, Dashboard List, Flowcharting, Gaug
 ### Homepage (servers)
 ![s1](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20panel.png)
 
-### Server availability (pinging)
+### Application server availability (ping)
 ![s5](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/servers%20performance.png)
 
 ### SDDC diagram
 ![s2](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/sddc%20panel.png)
 
-### Server availability (pinging)
+### Campus server availability (pinging)
 ![s3](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20performance.png)
 
 ### Report
