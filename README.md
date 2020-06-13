@@ -15,6 +15,8 @@ Grafana plugins     : Alert List, Boom Table, Dashboard List, Flowcharting, Gaug
 # Screenshots
 ![s1](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20panel.png)
 
+![s5](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/servers%20performance.png)
+
 ![s2](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/sddc%20panel.png)
 
 ![s3](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20performance.png)
