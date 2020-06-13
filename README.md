@@ -22,7 +22,7 @@ Grafana plugins     : Alert List, Boom Table, Dashboard List, Flowcharting, Gaug
 * Orange indicates WARN
 * Red indicates BREACHED
 
-### Homepage (servers)
+### Homepage (servers list)
 ![s1](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20panel.png)
 
 ### Application server availability (ping)
