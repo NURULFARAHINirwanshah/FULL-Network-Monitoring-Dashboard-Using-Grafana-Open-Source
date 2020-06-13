@@ -10,4 +10,6 @@ Browser             : Chrome 79
 Grafana plugins     : Alert List, Boom Table, Dashboard List, Flowcharting, Gauge, Graph, InfluxDB, MySQL, Prometheus, SimpleJSON, Singlestat, Table, TestData DB, Text, Datasource, PDF Report
 
 #Screenshots
-![ss](Libraries/Pictures/g1.png)
+![s1](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%20panel.png)  
+![s2](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/sddc%panel.png)  
+![s3](https://github.com/NURULFARAHINirwanshah/Network-Monitoring-Dashboard-Using-Grafana-Open-Source/blob/master/Screenshots/server%performance.png)
